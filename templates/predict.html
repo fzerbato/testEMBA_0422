@@ -8,6 +8,7 @@
 
 <div class="ui container", style="margin-top:50px">
 
+<p>I've changed the page</p>
   <h1>Iris Species Prediction</h1>
     <div class="row justify-content-md-center">
        <div class="ui small image", style="text-align: center">
@@ -20,7 +21,7 @@
     </div>
 
     <div class="row justify-content-md-center">
-        <div class="ui small image", style="text-align: center">
+        <div class="ui small image", style="text-align: center; text-color="blue">
             {% if prediction_result == 1 %}
 
                 <img src="{{url_for('static', filename='iris_versicolor.jpg')}}" class="img-thumbnail" />
